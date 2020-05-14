@@ -10,6 +10,10 @@ for(let contador = 1; contador <= 10; contador++){
 //for para lista usa o of
 const animais = ['macaco', 'cachorro', 'galinha', 'pato']
 
+animais.forEach((value, index) => {
+    console.log(`Índice: ${index} Valor: ${value}`)
+})
+
 for(let itens of animais){
     console.log(itens)
 }
